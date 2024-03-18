@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Alkalami' rel='stylesheet'>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        
+    </head>
+    <style>
+        *{
+ 
+ font-family: 'Montserrat', sans-serif;
+}
+html{
+ background-image: url(https://st3.depositphotos.com/11601342/19144/v/1600/depositphotos_191449930-stock-illustration-vector-science-pattern-science-seamless.jpg);
+ background-repeat: no-repeat;
+ backdrop-filter: blur(15px);
+ background-size: cover;
+ width: 100%;
+ height: 100%;
+}
+#h1-m{
+ text-align: center;
+ font-size: 150px;
+ text-shadow: 5px 5px 5px rgba(213, 147, 53, 0.601);
+}
+#joinvith{
+ padding-left: 1000px;
+ padding-top: -10px;
+ font-weight: bolder;
+ font-size: 30px;
+ text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.508);
+}
+.container{
+ display: flex;
+ flex-direction: row;
+ margin-top: 10px;
+ align-items: center;
+ justify-content: center;
+}
+.bookish-quest,.tidy-bud,.lift-lark{
+ background-color: orange;
+ padding: 20px;
+ width: 200px;
+ margin-left: 10px;
+ margin-right: 10px;
+ border-radius: 10px;
+ color: black;
+ text-align: center;
+ font-size: 30px;
+ font-weight: bolder;
+ border: 2px solid rgba(0, 0, 0, 0.3);
+ box-shadow: 2px 4px rgba(31, 28, 28, 0.677);
+}
+a{
+ text-decoration: none;
+}
+.book-n-des,.tidy-n-des,.lift-n-des{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.book-des, .tidy-des, .lift-des {
+ background-color: rgba(0, 0, 0, 0.553);
+ color: white;
+ border-radius: 10px;
+ padding: 20px;
+ width: 200px;
+ height: 120px;
+ margin-top: 10px;
+ visibility: hidden;;
+}
+.bookish-quest:hover{
+ background-color: #00a1ff;
+ width: 210px;
+ font-size: 32px;
+ padding: 20px;
+}
+.tidy-bud:hover{
+ background-color: #00a1ff;
+ width: 210px;
+ font-size: 32px;
+ padding: 20px;
+}
+.lift-lark:hover{
+ background-color: #00a1ff;
+ width: 210px;
+ font-size: 32px;
+ padding: 20px;
+}
+.book-n-des:hover .book-des,
+.tidy-n-des:hover .tidy-des,
+.lift-n-des:hover .lift-des {
+ visibility: visible;
+}
+.account{
+ position: relative;
+ text-align: center;
+ margin-left: 90%;
+ margin-top: 0%;
+ border-radius: 10px;
+ padding: 10px;
+ background-color: gray;
+ color: black;
+ font-size: 30px;
+ box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.6);
+}
+    </style>
+    <body>
+        <a href="bq-myacc.ejs">
+            <div class="account">Account</div></a>
+        <h1 id="h1-m">VITH</h1>
+        <h1 id="joinvith">-Join VITHus</h1>
+        <div class="container">
+            <div class="book-n-des">
+            <a href="/BQ">
+            <div class="bookish-quest" style="font-family: 'Alkalami';">
+                BookishQuest
+            </div>
+        </a>
+        <div class="book-des">
+            Facing difficulties to get notes for your CAT-2?<br>
+            Get notes/materials for your CAT-2 as easy as a snapping fingers...   
+        </div>
+    </div>
+        <div class="tidy-n-des">
+        <a href="tidybud.ejs">
+            <div class="tidy-bud" style="font-family: 'Alkalami';">
+                TidyBud
+            </div>
+        </a>
+        <div class="tidy-des" >
+            Never miss room cleaning again! Our site schedules it, 
+            predicts your presence and now we are responsible for your tidy room.
+        </div>
+        </div>
+        
+        <div class="lift-n-des">
+        <a href="liftlark.ejs">
+            <div class="lift-lark" style="font-family: 'Alkalami';">
+                LiftLark
+            </div>
+        </a>
+        <div class="lift-des">
+            Never play elevator roulette again! Our site reveals lift locations, 
+            saving you from endless floor-wandering. 
+            Sensor-powered lift selection: Because time waits for no one! 
+        </div>
+    </div>
+    </div>
+    </body>
+</html>
